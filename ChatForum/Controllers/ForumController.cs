@@ -6,6 +6,7 @@ using System.Web.Mvc;
 
 namespace ChatForum.Controllers
 {
+    [Authorize]
     public class ForumController : Controller
     {
         // GET: Forum
